@@ -1,6 +1,6 @@
 body {
 	color: #8f8f8f;
-	font: 12px Tahoma, sans-serif;
+	font: 16px Tahoma, sans-serif;
 	background-color: #f8f8f8;
 	border-top: 5px solid #7e7e7e;
 	margin: 0;
@@ -23,7 +23,7 @@ button {
 p {
 	margin: 20px 0;
 }
-#wrapper {
+#wrapper, footer {
 	max-width: 960px;
 	margin: auto;
 }
@@ -70,4 +70,38 @@ h1 {
 	background: url(../images/bg.png);
 	margin: 0;
 	padding: 0 10px;
+}
+aside {
+	margin: 5px;
+	float: left;
+}
+
+aside li {
+	list-style-type: none;
+}
+
+footer {
+	border-top: 2px solid #7e7e7e;
+	padding-top: 10px;
+}
+.me {
+	float: left;
+}
+
+.media {
+	float: right;
+	font-size: 20px;
+}
+.media a {
+	text-decoration: none;
+	color: #8f8f8f;
+}
+.media a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+aside a {
+	text-decoration: none;
+	color: #000;
 }
